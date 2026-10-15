@@ -1,5 +1,7 @@
 # Sub_ANE: admission subphenotypes of childhood acute encephalopathy
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23399103.svg)](https://doi.org/10.5281/zenodo.23399103)
+
 Analysis code for the study *A hyperinflammatory subphenotype of childhood acute encephalopathy identifiable from routine admission
 tests* (manuscript in preparation; the citation will be added on publication).
 
@@ -63,7 +65,10 @@ excludes them, the dataset, the chart-review sheet and all outputs from this rep
 
 ## Citation
 
-To be added on publication.
+Code: Li C. Sub_ANE: analysis code for admission subphenotypes of childhood acute encephalopathy (version 1.0.0). Zenodo; 2026.
+https://doi.org/10.5281/zenodo.23399103
+
+Article: to be added on publication.
 
 ## License
 
