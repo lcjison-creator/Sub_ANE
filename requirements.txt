@@ -1,0 +1,18 @@
+# Python 3.13. Package versions of the reported run (2026-10-14); install with: pip install -r requirements.txt
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+stepmix==3.0.0
+openpyxl==3.1.5
+tqdm==4.70.1
+threadpoolctl==3.7.0
+joblib==1.6.0
+patsy==1.0.3
+pillow==12.3.0
+# To open and run the notebooks (versions not critical)
+jupyterlab
+nbconvert
+ipykernel

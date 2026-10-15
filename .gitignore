@@ -1,0 +1,21 @@
+# Data and child-level files: never commit
+AE_freeze_v*/
+cache_frozen_tables/
+cache_figure_state/
+chart_review*.xlsx
+*INTERNAL*
+*.pkl
+*.parquet
+
+# Outputs and executed copies of the notebooks
+output_subphenotypes/
+AE_subphenotypes_run.ipynb
+redraw_run.ipynb
+*.csv
+*.xlsx
+*.zip
+
+# Python and Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
