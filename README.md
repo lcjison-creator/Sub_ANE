@@ -67,4 +67,4 @@ To be added on publication.
 
 ## License
 
-To be added.
+MIT License; see [LICENSE](LICENSE).
