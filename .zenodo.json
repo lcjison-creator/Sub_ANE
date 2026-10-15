@@ -1,0 +1,21 @@
+{
+  "title": "Sub_ANE: analysis code for admission subphenotypes of childhood acute encephalopathy",
+  "upload_type": "software",
+  "description": "<p>Analysis code (Jupyter notebooks) for the study \"A hyperinflammatory subphenotype of childhood acute encephalopathy identifiable from routine admission tests\": latent profile analysis of 24 routine laboratory tests and vital signs at admission, validation with cytokines and outcomes, prognostic analyses, stability and sensitivity analyses. The analysis plan is registered at https://osf.io/ygtr2. The repository contains code only; the patient-level data are not publicly available.</p>",
+  "creators": [
+    {
+      "name": "Li, Changjian",
+      "affiliation": "Wuhan Children's Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+      "orcid": "0000-0001-9839-2003"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "acute encephalopathy",
+    "children",
+    "latent profile analysis",
+    "subphenotypes",
+    "hyperinflammation"
+  ]
+}
