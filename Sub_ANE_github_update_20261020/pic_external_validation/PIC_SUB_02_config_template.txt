@@ -1,0 +1,7 @@
+# Configuration of PIC_SUB_02_replication, PIC_SUB_02_check and PIC_SUB_03_posthoc.
+# Copy this file to PIC_SUB_02_config.txt in the folder of the notebooks. Lines starting with # are ignored.
+# OSF deposit of the addendum, the notebook and the model file:
+osf_addendum = https://osf.io/ygtr2
+# Folder that holds the PIC v1.1.0 table files (the v1.1.0 subfolder of the PhysioNet download, uncompressed .csv files).
+# Remove the # and give the folder if the files are not in the folder of the notebooks:
+# pic_dir = D:\PIC\paediatric-intensive-care-database-1.1.0\v1.1.0
