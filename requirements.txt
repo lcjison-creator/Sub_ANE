@@ -16,3 +16,6 @@ pillow==12.3.0
 jupyterlab
 nbconvert
 ipykernel
+# Optional, for AE_reproduce_figures_tables.ipynb: the visual abstract and side-by-side images of the figures
+# python-pptx
+# pymupdf

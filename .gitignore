@@ -9,6 +9,8 @@ chart_review*.xlsx
 
 # Outputs and executed copies of the notebooks
 output_subphenotypes/
+output_reproduction/
+_reproduction_work_LOCAL_ONLY/
 AE_subphenotypes_run.ipynb
 redraw_run.ipynb
 *.csv

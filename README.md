@@ -24,6 +24,7 @@ rule for the hyperinflammatory subphenotype was tested there (folder `pic_extern
 | `AE_subphenotypes_analysis.ipynb` | The complete analysis, from the frozen dataset to every table, figure, figure legend, run log and supplementary file |
 | `AE_subphenotypes_redraw_figures.ipynb` | Redraws the figures from the results saved by a full run, in about a minute, without rerunning the analysis |
 | `AE_export_frozen_model.ipynb` | After a full run, writes the frozen model applied in PIC (aggregate values only) and checks it against the file deposited on OSF |
+| `AE_reproduce_figures_tables.ipynb` | Rebuilds every figure and table of the article (Figures 1-7, Figures S1-S6, Tables S1-S33, legends, PIC numbers, visual abstract) in one run, running any missing analysis first, and compares them with the submitted files |
 | `pic_external_validation/` | The external validation in PIC: notebooks, frozen model and their own README |
 | `requirements.txt` | Package versions of the reported run (Python 3.13) |
 | `reference/load_frozen.py` | Copy of the loader shipped inside the frozen dataset (`AE_freeze_v1.4/code/`): reads its tables and checks every file against the dataset manifest. The notebook uses the copy inside the dataset. |
@@ -62,6 +63,33 @@ admission date appears in any output.
 
 To change figures only, replace the analysis notebook with a version whose analysis cells are unchanged and run
 `AE_subphenotypes_redraw_figures.ipynb`; it stops and asks for a full run if the analysis cells differ from those of the saved run.
+
+## Reproducing every figure and table
+
+`AE_reproduce_figures_tables.ipynb` rebuilds, in one run, every figure and table of the article and puts them in
+`output_reproduction/` under the names used in the submission. Keep the repository as it is and add the data next to it:
+
+```
+Sub_ANE/                                  this repository
+    AE_reproduce_figures_tables.ipynb     run this one (Run All)
+    AE_subphenotypes_analysis.ipynb, AE_subphenotypes_redraw_figures.ipynb
+    AE_export_frozen_model.ipynb          optional (rebuilds the frozen model; not needed for the figures and tables)
+    AE_freeze_v1.4/                       frozen dataset (not public)
+    chart_review_completed.xlsx           (not public)
+    pic_external_validation/
+        PIC_SUB_01 ... PIC_SUB_04 notebooks, frozen model, PIC_SUB_02_config.txt
+        PIC version 1.1.0 table files, or a folder named by pic_dir in PIC_SUB_02_config.txt (PhysioNet)
+    Critical_Care_submission_*.zip        optional: the submitted files, for the comparison
+```
+
+Steps that have not been run in the folder are run first, in order: the derivation analysis (hours), then PIC_SUB_02_check,
+PIC_SUB_02 and PIC_SUB_03. Output folders of earlier runs, copied into this layout, are used as they are. The notebook then redraws
+Figures 1-6, Figures S1-S6 and Tables S1-S26 from the saved run, runs PIC_SUB_04 (Figure 7, every PIC number of the text, Tables
+S27-S33), builds the visual abstract (python-pptx; LibreOffice, or PowerPoint on Windows, for the PNG), lays out Additional file 2 as
+three-line tables, and compares each result with the submitted files when they are in the folder (pymupdf, optional, adds
+side-by-side images of the figures). On a computer other than that of the reported run, a few results that depend on whether model
+refits converge can differ (H4 and E1: Tables S15, S23 and S26 and the legends of Figures 4 and 5); the comparison marks them as
+resampling-dependent and lists any other difference separately.
 
 ## External validation in PIC
 
