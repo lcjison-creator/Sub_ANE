@@ -85,7 +85,7 @@ its own DOI:
 
 | Version | Date | Contents | DOI |
 |---|---|---|---|
-| 1.1.1 | 21 October 2026 | The code of 1.1.0, with the files at the repository root and the notebook outputs cleared | on the Zenodo record of this release |
+| 1.1.1 | 21 October 2026 | The code of 1.1.0, with the files at the repository root and the notebook outputs cleared | https://doi.org/10.5281/zenodo.23522782 |
 | 1.1.0 | 20 October 2026 | Adds the external validation in PIC | https://doi.org/10.5281/zenodo.23504597 |
 | 1.0.0 | 15 October 2026 | Derivation analysis | https://doi.org/10.5281/zenodo.23399103 |
 
