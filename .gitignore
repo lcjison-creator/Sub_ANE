@@ -19,3 +19,13 @@ redraw_run.ipynb
 __pycache__/
 .ipynb_checkpoints/
 .venv/
+
+# PIC (PhysioNet): data files, local configuration and outputs, never commit
+*.csv.gz
+*.gz
+paediatric-intensive-care-database*/
+PIC_SUB_02_config.txt
+*_LOCAL_ONLY/
+output_pic_sub*/
+output_frozen_model/
+Manuscript.docx

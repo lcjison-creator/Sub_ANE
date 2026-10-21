@@ -1,7 +1,7 @@
 {
   "title": "Sub_ANE: analysis code for admission subphenotypes of childhood acute encephalopathy",
   "upload_type": "software",
-  "description": "<p>Analysis code (Jupyter notebooks) for the study \"A hyperinflammatory subphenotype of childhood acute encephalopathy identifiable from routine admission tests\": latent profile analysis of 24 routine laboratory tests and vital signs at admission, validation with cytokines and outcomes, prognostic analyses, stability and sensitivity analyses. The analysis plan is registered at https://osf.io/ygtr2. The repository contains code only; the patient-level data are not publicly available.</p>",
+  "description": "<p>Analysis code (Jupyter notebooks) for the study \"Derivation and external validation of a hyperinflammatory subphenotype of childhood acute encephalopathy from routine admission tests\": latent profile analysis of 24 routine laboratory tests and vital signs at admission, validation with cytokines and outcomes, prognostic analyses, stability and sensitivity analyses, and the external validation of the frozen model and a bedside rule in the Paediatric Intensive Care (PIC) database, version 1.1.0. The analysis plan and the addendum for the external validation are registered at https://osf.io/ygtr2. The repository contains code and the frozen model (aggregate values) only; the patient-level data are not publicly available, and PIC is available on PhysioNet to credentialed users.</p>",
   "creators": [
     {
       "name": "Li, Changjian",
@@ -16,6 +16,9 @@
     "children",
     "latent profile analysis",
     "subphenotypes",
-    "hyperinflammation"
-  ]
+    "hyperinflammation",
+    "external validation",
+    "Paediatric Intensive Care database"
+  ],
+  "version": "1.1.1"
 }
