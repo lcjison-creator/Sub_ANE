@@ -113,6 +113,7 @@ its own DOI:
 
 | Version | Date | Contents | DOI |
 |---|---|---|---|
+| 1.2.0 | 21 October 2026 | Adds `AE_reproduce_figures_tables.ipynb`, which rebuilds every figure and table of the article; analysis code unchanged | https://doi.org/10.5281/zenodo.23529823 |
 | 1.1.1 | 21 October 2026 | The code of 1.1.0, with the files at the repository root and the notebook outputs cleared | https://doi.org/10.5281/zenodo.23522782 |
 | 1.1.0 | 20 October 2026 | Adds the external validation in PIC | https://doi.org/10.5281/zenodo.23504597 |
 | 1.0.0 | 15 October 2026 | Derivation analysis | https://doi.org/10.5281/zenodo.23399103 |
