@@ -88,7 +88,7 @@ Figures 1-6, Figures S1-S6 and Tables S1-S26 from the saved run, runs PIC_SUB_04
 S27-S33), builds the visual abstract (python-pptx; LibreOffice, or PowerPoint on Windows, for the PNG), lays out Additional file 2 as
 three-line tables, and compares each result with the submitted files when they are in the folder (pymupdf, optional, adds
 side-by-side images of the figures). On a computer other than that of the reported run, a few results that depend on whether model
-refits converge can differ (H4 and E1: Tables S15, S23 and S26 and the legends of Figures 4 and 5); the comparison marks them as
+refits converge can differ (H4 and E1: Tables S10, S18 and S19 and the legends of Figures 4 and 5); the comparison marks them as
 resampling-dependent and lists any other difference separately.
 
 ## External validation in PIC
