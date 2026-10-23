@@ -1,6 +1,6 @@
 # Sub_ANE: admission subphenotypes of childhood acute encephalopathy
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23399103.svg)](https://doi.org/10.5281/zenodo.23399103)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23583979.svg)](https://doi.org/10.5281/zenodo.23583979)
 
 Analysis code for the study *Derivation and external validation of a hyperinflammatory subphenotype of childhood acute
 encephalopathy from routine admission tests* (the citation will be added on publication).
@@ -113,6 +113,7 @@ its own DOI:
 
 | Version | Date | Contents | DOI |
 |---|---|---|---|
+| 1.2.1 | 23 October 2026 | Supplementary tables and figures numbered in the order of their first citation in the article; Additional file 3 written at 300 dpi; analysis code unchanged | https://doi.org/10.5281/zenodo.23583979 |
 | 1.2.0 | 21 October 2026 | Adds `AE_reproduce_figures_tables.ipynb`, which rebuilds every figure and table of the article; analysis code unchanged | https://doi.org/10.5281/zenodo.23529823 |
 | 1.1.1 | 21 October 2026 | The code of 1.1.0, with the files at the repository root and the notebook outputs cleared | https://doi.org/10.5281/zenodo.23522782 |
 | 1.1.0 | 20 October 2026 | Adds the external validation in PIC | https://doi.org/10.5281/zenodo.23504597 |
